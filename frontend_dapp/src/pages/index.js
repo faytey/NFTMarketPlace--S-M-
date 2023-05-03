@@ -911,7 +911,6 @@ export default function Home() {
             Explore Digital Art and Gather Nfts
           </h1>
           <div style={{ fontSize: "120%" }}>
-            Nextjs Was Used To Create The Nft Marketplace frontend for NiFT.
             Assemble, purchase, and market artwork from over 20,000 Nft artists.
           </div>
           <button

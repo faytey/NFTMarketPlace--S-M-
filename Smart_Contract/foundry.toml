@@ -6,10 +6,10 @@ verbosity = 4
 
 
 [rpc_endpoints]
-sepolia = "${SEPOLIA_RPC_URL}"
+mantle = "${MANTLE_RPC}"
 
 [etherscan]
-sepolia = { key = "${ETHERSCAN_API_KEY}" }
+mantle = { key = "${ETHERSCAN}" }
 
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

@@ -20,8 +20,8 @@ const Nav = () => {
 
   let [open, setOpen] = useState(false);
   return (
-    <div className="shadow-md w-screen fixed top-0 left-0 z-30">
-      <div className="md:flex items-center justify-between bg-[#2B2B2B] bg-opacity-75 py-4 md:px-10 px-7">
+    <div className="shadow-xl w-screen fixed top-0 left-0 z-30">
+      <div className="md:flex items-center justify-between bg-blue-950 bg-opacity-75 py-6 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-300">
           <span className="text-3xl text-[#8900AE] mr-2 pt-2">
             <SiSinglestore />
