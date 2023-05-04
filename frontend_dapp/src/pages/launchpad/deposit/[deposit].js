@@ -90,21 +90,24 @@ const Deposit = () => {
 
   return (
     <div className="w-[40%] mx-auto p-[2rem] bg-[rgba(0,0,0,0.4)] rounded-lg border border-black">
-      <h1>Support this Awesome LaunchPad</h1>
+      <h1 className="text-center my-4">LaunchPad Support</h1>
       <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center gap-2 width-[40%]"
       >
         <label htmlFor="amount">Amount of NFTs: </label>
         <input
-          className="text-black w-[60%]"
+          className="text-black w-[60%] p-2 border-2 border-black rounded-md"
           type="text"
           id="amount"
           value={amount}
           placeholder="Enter Amount of NFTs to Purchase"
           onChange={(e) => setAmount(e.target.value)}
         />
-        <button type="submit">
+        <button
+          type="submit"
+          className="border-2 border-white p-3 rounded-md mt-4"
+        >
           {isLoading || loadWaitData ? "Submitting" : "SUBMIT"}
         </button>
       </form>
